@@ -22,6 +22,14 @@ namespace SiteShortcuts
             {
                 Process.Start("http://soundcloud.com");
             }
+            if (shrtctName == "discord")
+            {
+                Process.Start("http://discord.com/404");
+            }
+            if (shrtctName == "spotify")
+            {
+                Process.Start("http://open.spotify.com");
+            }
 
             else
             {
