@@ -14,7 +14,10 @@ namespace SiteShortcuts
             Console.WriteLine();
             Console.WriteLine("Write shortcut name:");
             string shrtctName = Console.ReadLine();
-            if
+            if (shrtctName == "google")
+            {
+                trow 
+            }
         }
     }
 }
