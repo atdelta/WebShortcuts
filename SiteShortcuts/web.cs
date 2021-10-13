@@ -16,7 +16,16 @@ namespace SiteShortcuts
             string shrtctName = Console.ReadLine();
             if (shrtctName == "google")
             {
-                trow 
+                Process.Start("http://google.com");
+            }
+            if (shrtctName == "soundcloud")
+            {
+                Process.Start("http://soundcloud.com");
+            }
+
+            else
+            {
+                Console.WriteLine("Missing Shortcut");
             }
         }
     }
