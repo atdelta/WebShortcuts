@@ -9,13 +9,12 @@ namespace SiteShortcuts
 {
     internal class web
     {
-        public static void help()
+        public static void En()
         {
             Console.WriteLine();
-            
-            Console.WriteLine("Opened in your default browser");
-
-            Console.WriteLine();
+            Console.WriteLine("Write shortcut name:");
+            string shrtctName = Console.ReadLine();
+            if
         }
     }
 }
