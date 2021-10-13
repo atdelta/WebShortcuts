@@ -26,11 +26,11 @@ namespace SiteShortcuts
             string lang = Console.ReadLine();
             if (lang == "Ru")
             {
-                language = Program.Ru();
+                language = web.Ru();
             }
             if (lang == "En")
             {
-                language = Program.En();
+                language = web.En();
             }
             else
             {
